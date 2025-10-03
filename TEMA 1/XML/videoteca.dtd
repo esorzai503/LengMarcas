@@ -1,0 +1,10 @@
+<!ELEMENT videoteca (pelicula+)>
+<!-- donde pone "pelicula+, significa quer hay mas d una pelicula en "vdeioteca, en caso de q queramos
+poner mas directores o titulo, etc. dentro de una etiqueta, hay que poner (nombre)+ -->
+<!ELEMENT pelicula (titulo,director,anio)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!-- en PCDATA significa q los elementos q tienen ese parentesis son ya datos, que se han vuelto datos, y se
+ identifica con el (nombre) (#PCDATA)-->
+ 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:h="https://www.w3.org/html/">
+    <h:table>
+    <h:tr>
+        <h:td>Manzanas</h:td>
+        <h:td>Plátanos</h:td>
+    </h:tr>
+    </h:table>
+</root>
